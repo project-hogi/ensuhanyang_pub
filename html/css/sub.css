@@ -1,0 +1,427 @@
+#containerwrap{width: 100%;}
+#container{width: 100%;}
+.conwrap{width: 1000px;margin: auto; padding-bottom:110px;}
+/* About - Greeting */
+#greeting {padding-top:65px;}
+#greeting p.txt1 {font-size:20px; line-height:26px; color:#f79312;}
+#greeting p.txt2 {padding-top:14px; padding-bottom:30px;}
+#greeting ul {position:relative; height:560px;}
+#greeting ul li.photo {position:absolute; top:6px; left:0;}
+#greeting ul li.txt1 {width:662px; position:absolute; top:0px; right:0; line-height:24px; letter-spacing:0.05em;}
+#greeting ul li.btm {line-height:24px; position:absolute; top:350px; right:0; text-align:right;}
+#greeting ul li.btm img {padding-bottom:10px;}
+
+/* About - Startup Lounge */
+#startup_lounge {padding-top:60px;}
+#startup_lounge p.txt1 {font-size:20px; color:#f7931e; padding-bottom:13px;}
+#startup_lounge p.txt2 {line-height:24px; padding-bottom:25px;}
+#startup_lounge p.img1 {padding-bottom:65px;}
+#startup_lounge h3 {font-size:20px; color:#f79312; padding-bottom:20px;}
+#startup_lounge ul li {padding-bottom:26px;}
+#startup_lounge ul li dl {position:relative;}
+#startup_lounge ul li dl dt {font-size:16px; width:144px; height:60px; background-color:#dadada; color:#316a70; font-weight:600; text-align:center; line-height:60px; border-radius:5px;}
+#startup_lounge ul li dl dd {position:absolute; top:0; right:0; width:836px; line-height:24px;}
+#startup_lounge ul li dl dd.line-1 {padding-top:17px;}
+#startup_lounge ul li dl dd.line-2 {padding-top:5px;}
+#startup_lounge ul li dl dd.line-3 {margin-top:-4px;}
+
+/* About - Center-for */
+#center-for {padding-top:60px;}
+#center-for ul.tab {overflow:hidden; border-bottom:2px solid #f5f5f5;}
+#center-for ul.tab li {float:left;}
+#center-for ul.tab li a {display:block; width:165px; height:53px; border:1px solid #d0d0d0; border-left:0px none; background-color:#e6e6e6; text-align:center; line-height:53px; font-weight:bold; font-size:19px; color:#666;}
+#center-for ul.tab li.selected a {background-color:#404575; color:#fff;}
+#center-for ul.tab li.last a {width:168px;}
+#center-for ul.tab {border-left:1px solid #d0d0d0;}
+#center-for h3 {font-size:26px; font-weight:bold; color:#f7931e; padding-top:45px; padding-bottom:25px; text-align:center;}
+#center-for p.txt1 {line-height:24px; padding-bottom:25px;}
+#center-for p.top {position:relative; height:40px; border-bottom:1px dashed #ccc; padding-top:20px;}
+#center-for p.top a {position:absolute; bottom:-1px; right:0;}
+#center-for ol.vision {padding-top:25px;}
+#center-for ol.vision li {line-height:24px;}
+#center-for ul.major li {padding-bottom:20px;}
+#center-for ul.major li dl {overflow:hidden;}
+#center-for ul.major li dl dt {float:left; width:240px; padding-left:20px; font-size:18px; font-weight:600; color:#0ea6cc; background:url('../img/about/bg_major_dt.png') no-repeat 2px 8px;}
+#center-for ul.major li dl dd {float:left; width:740px; line-height:24px;}
+#center-for ul.major li dl dd strong {font-weight:bold;}
+#center-for ul.history li {padding-bottom:20px;}
+#center-for ul.history li dl {position:relative;}
+#center-for ul.history li dl dt {width:90px; height:90px; background:url('../img/about/bg_history.png') no-repeat 0 0; line-height:90px; padding-left:30px; color:#fff; font-size:15px; font-weight:600;}
+#center-for ul.history li dl dd {position:absolute; top:0; left:120px; width:880px; line-height:24px;}
+#center-for ul.history li dl dd.line-1 {top:33px;}
+#center-for ul.history li dl dd.line-2 {top:20px;}
+#center-for ul.history li dl dd.line-3 {top:8px;}
+#center-for p.txt2 {line-height:24px; padding-bottom:28px;}
+#center-for p.img4 {padding-bottom:50px;}
+#center-for ul.directions li {padding-bottom:26px;}
+#center-for ul.directions li.btm {padding-bottom:0;}
+#center-for ul.directions li dl {overflow:hidden;}
+#center-for ul.directions li dl dt {float:left; width:320px; padding-left:20px; background:url('../img/about/bg_major_dt.png') no-repeat 2px 8px; font-size:18px; font-weight:600; color:#0ea6cc;}
+#center-for ul.directions li dl dd {float:left; width:660px; line-height:24px;}
+
+/* Programs tab wrap */
+.programs_tab {height:47px; background:url('../img/about/gray_border.png') repeat-x center bottom;}
+
+/* Programs - Education */
+ul.education_tab {overflow:hidden; width:999px; margin:0 auto; border-left:1px solid #dadada;}
+ul.education_tab li {float:left; width:249px; border-right:1px solid #dadada; height:47px;}
+ul.education_tab li.last {width:248px;}
+ul.education_tab li a {display:block; width:249px; height:49px; text-align:center; line-height:49px; font-size:16px; color:#8c8c8c; font-weight:bold;}
+ul.education_tab li.last a {width:248px;}
+ul.education_tab li.selected a {background-color:#fafafa; color:#f79312; height:46px; border-bottom:3px solid #f79312;border-right:1px solid #dadada;}
+
+/* Education - Major in Entrepreneurship */
+#education_major {padding-top:60px;}
+#education_major h3 {font-size:26px; font-weight:bold; color:#f7931e; padding-bottom:3px;}
+#education_major ul {padding-bottom:20px;}
+#education_major ul li {line-height:24px;}
+#education_major .table_w {padding-top:3px; background:url('../img/about/bg_table_bd.png') repeat-x 0 0;}
+#education_major table {width:100%;}
+#education_major table tr {border-bottom:1px solid #ccc;}
+#education_major table tr th {width:213px; vertical-align:middle; font-weight:600; line-height:24px; background-color:#f7f7f7; border-right:1px solid #ccc;}
+#education_major table tr td {padding:20px; line-height:24px;}
+
+/* Education - Startup Lectures */
+#education_startup {padding-top:60px;}
+#education_startup h3 {font-size:26px; color:#f7931e; font-weight:bold; padding-bottom:16px;}
+#education_startup p.txt1 {padding-bottom:20px;}
+#education_startup .table_w {padding-top:3px; background:url('../img/about/bg_table_bd.png') repeat-x 0 0;}
+#education_startup table {width:100%;}
+#education_startup table tr th {height:43px; background-color:#f7f7f7; font-weight:bold; border-bottom:1px solid #ccc; border-right:1px solid #d9d9d9; vertical-align:middle;}
+#education_startup table tr th.name {width:418px;}
+#education_startup table tr th.unit {width:50px;}
+#education_startup table tr th.lecture {width:50px;}
+#education_startup table tr th.practicum {width:58px;}
+#education_startup table tr th.category {width:104px;}
+#education_startup table tr th.year {width:104px;}
+#education_startup table tr th.category {width:104px;}
+#education_startup table tr th.last {border-right:0px none;}
+#education_startup table tr td {border-bottom:1px solid #e7e7e7; height:37px; border-right:1px solid #d9d9d9; text-align:center; vertical-align:middle; font-size:13px;}
+#education_startup table tr td.name {text-align:left; padding-left:20px; width:398px;}
+#education_startup table tr td.last {border-right:0px none;}
+#education_startup p.btn {text-align:center; padding-top:50px; padding-bottom:90px;}
+
+/* Education - Hanyang Startup Academy */
+#education_academy {padding-top:60px;}
+#education_academy h3 {font-size:26px; color:#f7931e; font-weight:bold; padding-bottom:16px;}
+#education_academy p.txt1 {line-height:24px; padding-bottom:20px;}
+#education_academy ul li {padding-bottom:20px;}
+#education_academy ul li dl {overflow:hidden;}
+#education_academy ul li dl dt {float:left; width:220px; padding-left:20px; background:url('../img/about/bg_major_dt.png') no-repeat 0 8px; font-size:18px; font-weight:600; color:#0ea6cc;}
+#education_academy ul li dl dd {float:left; width:760px; line-height:24px;}
+
+/* Programs - Hanyang Tech Ventrue Program */
+#education_venture {padding-top:60px;}
+#education_venture h3 {font-size:26px; color:#f7931e; font-weight:bold; padding-bottom:16px;}
+#education_venture p.txt1 {line-height:24px;}
+#education_venture dl {overflow:hidden; padding:20px 0;}
+#education_venture dl dt {float:left; width:100px; padding-left:20px; background:url('../img/about/bg_major_dt.png') no-repeat 0 8px; font-size:18px; font-weight:600; color:#0ea6cc;}
+#education_venture dl dd {float:left; width:880px; line-height:24px;}
+#education_venture dl.expected dt {width:170px;}
+#education_venture dl.expected dd {width:810px;}
+
+/* Programs - Networking */
+ul.networking_tab {overflow:hidden; width:999px; margin:0 auto; border-left:1px solid #dadada;}
+ul.networking_tab li {float:left; width:498px; border-right:1px solid #dadada; height:47px;}
+ul.networking_tab li.last {width:499px;}
+ul.networking_tab li a {display:block; width:498px; height:49px; text-align:center; line-height:49px; font-size:16px; color:#8c8c8c; font-weight:bold;}
+ul.networking_tab li.last a {width:499px;}
+ul.networking_tab li.selected a {background-color:#fafafa; color:#f79312; height:46px; border-bottom:3px solid #f79312;border-right:1px solid #dadada;}
+
+/* Networking - Forums */
+#networking_forums {padding-top:60px;}
+#networking_forums ul.tab {overflow:hidden; border-bottom:2px solid #f5f5f5;}
+#networking_forums ul.tab li {float:left;}
+#networking_forums ul.tab li a {display:block; width:498px; height:53px; border:1px solid #d0d0d0; border-left:0px none; background-color:#e6e6e6; text-align:center; line-height:53px; font-weight:bold; font-size:19px; color:#666;}
+#networking_forums ul.tab li.selected a {background-color:#404575; color:#fff;}
+#networking_forums ul.tab li.last a {width:499px;}
+#networking_forums ul.tab {border-left:1px solid #d0d0d0;}
+#networking_forums h3 {font-size:26px; font-weight:bold; text-align:center; padding-top:40px; padding-bottom:20px; color:#f7931e;}
+#networking_forums p.txt1 {line-height:24px; padding-bottom:20px;}
+#networking_forums ul.entre li {padding-bottom:20px;}
+#networking_forums ul.entre li.last {padding-bottom:0;}
+#networking_forums ul.entre li dl {overflow:hidden;}
+#networking_forums ul.entre li dl dt {float:left; width:240px; padding-left:20px; background:url('../img/about/bg_major_dt.png') no-repeat 0 8px; font-size:18px; font-weight:600; color:#0ea6cc;}
+#networking_forums ul.entre li dl dd {float:left; width:740px; line-height:24px;}
+#networking_forums p.top {position:relative; height:40px; border-bottom:1px dashed #ccc; padding-top:20px;}
+#networking_forums p.top a {position:absolute; bottom:-1px; right:0;}
+#networking_forums p.txt2 {line-height:24px; padding-bottom:20px;}
+#networking_forums ul.startup li {padding-bottom:20px;}
+#networking_forums ul.startup li.last {padding-bottom:0;}
+#networking_forums ul.startup li dl {overflow:hidden;}
+#networking_forums ul.startup li dl dt {float:left; width:130px; padding-left:20px; background:url('../img/about/bg_major_dt.png') no-repeat 0 8px; font-size:18px; font-weight:600; color:#0ea6cc;}
+#networking_forums ul.startup li dl dd {float:left; width:850px; line-height:24px;}
+
+/* Networking - Mentoring */
+#networking_mentoring {padding-top:60px;}
+#networking_mentoring ul.tab {overflow:hidden; border-bottom:2px solid #f5f5f5;}
+#networking_mentoring ul.tab li {float:left;}
+#networking_mentoring ul.tab li a {display:block; width:498px; height:53px; border:1px solid #d0d0d0; border-left:0px none; background-color:#e6e6e6; text-align:center; line-height:53px; font-weight:bold; font-size:19px; color:#666;}
+#networking_mentoring ul.tab li.selected a {background-color:#404575; color:#fff;}
+#networking_mentoring ul.tab li.last a {width:499px;}
+#networking_mentoring ul.tab {border-left:1px solid #d0d0d0;}
+#networking_mentoring h3 {font-size:26px; font-weight:bold; text-align:center; padding-top:40px; padding-bottom:20px; color:#f7931e;}
+#networking_mentoring p.txt1 {line-height:24px; padding-bottom:20px;}
+#networking_mentoring ul.mentoring li {padding-bottom:20px;}
+#networking_mentoring ul.mentoring li.last {padding-bottom:0;}
+#networking_mentoring ul.mentoring li dl {overflow:hidden;}
+#networking_mentoring ul.mentoring li dl dt {float:left; width:145px; padding-left:20px; background:url('../img/about/bg_major_dt.png') no-repeat 0 8px; font-size:18px; font-weight:600; color:#0ea6cc;}
+#networking_mentoring ul.mentoring li dl dd {float:left; width:835px; line-height:24px;}
+#networking_mentoring p.img1 {padding-bottom:20px;}
+#networking_mentoring ul.txt2 {padding-bottom:20px;}
+#networking_mentoring ul.txt2 li {line-height:24px;}
+#networking_mentoring p.top {position:relative; height:40px; border-bottom:1px dashed #ccc; padding-top:20px;}
+#networking_mentoring p.top a {position:absolute; bottom:-1px; right:0;}
+#networking_mentoring p.txt3 {padding-bottom:20px;}
+#networking_mentoring ul.mentors li {padding-bottom:20px;}
+#networking_mentoring ul.mentors li dl {overflow:hidden;}
+#networking_mentoring ul.mentors li dl dt {float:left; width:325px; padding-left:20px; background:url('../img/about/bg_major_dt.png') no-repeat 0 8px; font-size:18px; font-weight:600; color:#0ea6cc;}
+#networking_mentoring ul.mentors li dl dd {float:left; width:655px; line-height:24px;}
+
+/* Programs - Training */
+ul.training_tab {overflow:hidden; width:999px; margin:0 auto; border-left:1px solid #dadada;}
+ul.training_tab li {float:left; width:332px; border-right:1px solid #dadada; height:47px;}
+ul.training_tab li a {display:block; width:332px; height:49px; text-align:center; line-height:49px; font-size:16px; color:#8c8c8c; font-weight:bold;}
+ul.training_tab li.selected a {background-color:#fafafa; color:#f79312; height:46px; border-bottom:3px solid #f79312;border-right:1px solid #dadada;}
+
+/* Training - Competitions */
+#training_competitions {padding-top:60px;}
+#training_competitions ul.tab {overflow:hidden; border-bottom:2px solid #f5f5f5;}
+#training_competitions ul.tab li {float:left;}
+#training_competitions ul.tab li a {display:block; width:331px; height:53px; border:1px solid #d0d0d0; border-left:0px none; background-color:#e6e6e6; text-align:center; line-height:53px; font-weight:bold; font-size:19px; color:#666;}
+#training_competitions ul.tab li.selected a {background-color:#404575; color:#fff;}
+#training_competitions ul.tab li.last a {width:334px;}
+#training_competitions ul.tab {border-left:1px solid #d0d0d0;}
+#training_competitions h3 {font-size:26px; font-weight:bold; text-align:center; padding-top:40px; padding-bottom:20px; color:#f7931e;}
+#training_competitions p.txt1 {line-height:24px; padding-bottom:20px;}
+#training_competitions ul.lion li {padding-bottom:20px;}
+#training_competitions ul.lion li.last {padding-bottom:0;}
+#training_competitions ul.lion li dl {overflow:hidden;}
+#training_competitions ul.lion li dl dt {float:left; width:230px; padding-left:20px; background:url('../img/about/bg_major_dt.png') no-repeat 0 8px; font-size:18px; font-weight:600; color:#0ea6cc;}
+#training_competitions ul.lion li dl dd {float:left; width:750px; line-height:24px;}
+#training_competitions p.top {position:relative; height:40px; border-bottom:1px dashed #ccc; padding-top:20px;}
+#training_competitions p.top a {position:absolute; bottom:-1px; right:0;}
+#training_competitions p.txt2 {line-height:24px; padding-bottom:20px;}
+#training_competitions ul.venture li {padding-bottom:20px;}
+#training_competitions ul.venture li.last {padding-bottom:0;}
+#training_competitions ul.venture li dl {overflow:hidden;}
+#training_competitions ul.venture li dl dt {float:left; width:250px; padding-left:20px; background:url('../img/about/bg_major_dt.png') no-repeat 0 8px; font-size:18px; font-weight:600; color:#0ea6cc;}
+#training_competitions ul.venture li dl dd {float:left; width:730px; line-height:24px;}
+#training_competitions ul.venture li dl dd span {display:block; padding-left:15px; font-size:12px; color:#5d5d5d; line-height:20px;}
+#training_competitions p.txt3 {line-height:24px; padding-bottom:20px;}
+#training_competitions ul.campus li {padding-bottom:20px;}
+#training_competitions ul.campus li.last {padding-bottom:0;}
+#training_competitions ul.campus li dl {overflow:hidden;}
+#training_competitions ul.campus li dl dt {float:left; width:250px; padding-left:20px; background:url('../img/about/bg_major_dt.png') no-repeat 0 8px; font-size:18px; font-weight:600; color:#0ea6cc;}
+#training_competitions ul.campus li dl dd {float:left; width:730px; line-height:24px;}
+
+/* Training - Camps */
+#training_camps {padding-top:60px;}
+#training_camps ul.tab {overflow:hidden; border-bottom:2px solid #f5f5f5;}
+#training_camps ul.tab li {float:left;}
+#training_camps ul.tab li a {display:block; width:331px; height:53px; border:1px solid #d0d0d0; border-left:0px none; background-color:#e6e6e6; text-align:center; line-height:53px; font-weight:bold; font-size:19px; color:#666;}
+#training_camps ul.tab li.selected a {background-color:#404575; color:#fff;}
+#training_camps ul.tab li.two a {width:311px;}
+#training_camps ul.tab li.last a {width:354px;}
+#training_camps ul.tab {border-left:1px solid #d0d0d0;}
+#training_camps h3 {font-size:26px; font-weight:bold; text-align:center; padding-top:40px; padding-bottom:20px; color:#f7931e;}
+#training_camps p.txt1 {line-height:24px; padding-bottom:20px;}
+#training_camps ul.entre li {padding-bottom:20px;}
+#training_camps ul.entre li.last {padding-bottom:0;}
+#training_camps ul.entre li dl {overflow:hidden;}
+#training_camps ul.entre li dl dt {float:left; width:250px; padding-left:20px; background:url('../img/about/bg_major_dt.png') no-repeat 0 8px; font-size:18px; font-weight:600; color:#0ea6cc;}
+#training_camps ul.entre li dl dd {float:left; width:730px; line-height:24px;}
+#training_camps ul.entre li dl dd .table_w {padding-top:3px; padding-bottom:45px; background:url('../img/about/bg_table_bd.png') repeat-x 0 0;}
+#training_camps ul.entre li dl dd table {width:100%; border-left:1px solid #ccc;}
+#training_camps ul.entre li dl dd table tr {border-bottom:1px solid #ccc;}
+#training_camps ul.entre li dl dd table tr th {vertical-align:middle; font-weight:600; height:39px; line-height:24px; background-color:#f7f7f7; border-right:1px solid #ccc;}
+#training_camps ul.entre li dl dd table tr td {padding:20px; line-height:24px; border-right:1px solid #ccc;}
+#training_camps ul.entre li.img dl dt {width:0; height:0; font-size:0; background:none;}
+#training_camps ul.entre li.img dl dd {clear:both; width:100%;}
+#training_camps p.top {position:relative; height:40px; border-bottom:1px dashed #ccc; padding-top:20px;}
+#training_camps p.top a {position:absolute; bottom:-1px; right:0;}
+
+/* Training - Internships */
+#training_internships {padding-top:60px;}
+#training_internships ul.tab {overflow:hidden; border-bottom:2px solid #f5f5f5;}
+#training_internships ul.tab li {float:left;}
+#training_internships ul.tab li a {display:block; width:498px; height:53px; border:1px solid #d0d0d0; border-left:0px none; background-color:#e6e6e6; text-align:center; line-height:53px; font-weight:bold; font-size:19px; color:#666;}
+#training_internships ul.tab li.selected a {background-color:#404575; color:#fff;}
+#training_internships ul.tab li.last a {width:499px;}
+#training_internships ul.tab {border-left:1px solid #d0d0d0;}
+#training_internships h3 {font-size:26px; font-weight:bold; text-align:center; padding-top:40px; padding-bottom:20px; color:#f7931e;}
+#training_internships p.txt1 {line-height:24px; padding-bottom:20px;}
+#training_internships ul.global li {padding-bottom:20px;}
+#training_internships ul.global li dl {overflow:hidden;}
+#training_internships ul.global li dl dt {float:left; width:255px; padding-left:20px; background:url('../img/about/bg_major_dt.png') no-repeat 0 8px; font-size:18px; font-weight:600; color:#0ea6cc;}
+#training_internships ul.global li dl dd {float:left; width:725px; line-height:24px;}
+#training_internships ul.global li.last {padding-bottom:0;}
+#training_internships p.top {position:relative; height:40px; border-bottom:1px dashed #ccc; padding-top:20px;}
+#training_internships p.top a {position:absolute; bottom:-1px; right:0;}
+
+/* Programs - Incubating */
+ul.incubating_tab {overflow:hidden; width:999px; margin:0 auto; border-left:1px solid #dadada;}
+ul.incubating_tab li {float:left; width:249px; border-right:1px solid #dadada; height:47px;}
+ul.incubating_tab li.last {width:248px;}
+ul.incubating_tab li a {display:block; width:249px; height:49px; text-align:center; line-height:49px; font-size:16px; color:#8c8c8c; font-weight:bold;}
+ul.incubating_tab li.last a {width:248px;}
+ul.incubating_tab li.selected a {background-color:#fafafa; color:#f79312; height:46px; border-bottom:3px solid #f79312;border-right:1px solid #dadada;}
+
+/* Incubating - Center for Business Incubation */
+#incubating_center {padding-top:50px;}
+#incubating_center h3 {font-size:26px; font-weight:bold; padding-bottom:20px; color:#f7931e;}
+#incubating_center p.txt1 {line-height:24px; padding-bottom:20px;}
+#incubating_center h4 {padding-left:20px; background:url('../img/about/bg_major_dt.png') no-repeat 0 8px; font-size:18px; font-weight:600; color:#0ea6cc; padding-bottom:15px;}
+#incubating_center .table_w {padding-top:3px; padding-bottom:45px; background:url('../img/about/bg_table_bd.png') repeat-x 0 0;}
+#incubating_center table {width:100%;}
+#incubating_center table tr {border-bottom:1px solid #ccc;}
+#incubating_center table tr th {width:173px; height:74px; background-color:#f7f7f7; vertical-align:middle; border-right:1px solid #d9d9d9;}
+#incubating_center table tr td {padding:10px 20px; vertical-align:middle; line-height:24px;}
+
+/* Incubating - Venturing Space Sponsored by */
+#incubating_venturing {padding-top:50px;}
+#incubating_venturing h3 {font-size:26px; font-weight:bold; padding-bottom:20px; color:#f7931e;}
+#incubating_venturing p.txt1 {line-height:24px; padding-bottom:20px;}
+#incubating_venturing ul.venturing li {padding-bottom:20px;}
+#incubating_venturing ul.venturing li.last {padding-bottom:0;}
+#incubating_venturing ul.venturing li dl {overflow:hidden;}
+#incubating_venturing ul.venturing li dl dt {float:left; width:230px; padding-left:20px; background:url('../img/about/bg_major_dt.png') no-repeat 0 8px; font-size:18px; font-weight:600; color:#0ea6cc;}
+#incubating_venturing ul.venturing li dl dd {float:left; width:750px; line-height:24px;}
+
+/* Incubating - Alumni Startup Sauna */
+#incubating_alumni {padding-top:50px;}
+#incubating_alumni h3 {font-size:26px; font-weight:bold; padding-bottom:20px; color:#f7931e;}
+#incubating_alumni p.txt1 {line-height:24px; padding-bottom:20px;}
+#incubating_alumni dl {overflow:hidden;}
+#incubating_alumni dl dt {float:left; width:220px; padding-left:20px; background:url('../img/about/bg_major_dt.png') no-repeat 0 8px; font-size:18px; font-weight:600; color:#0ea6cc;}
+#incubating_alumni dl dd {float:left; width:760px; line-height:24px;}
+
+/* Incubating - Startup Club */
+#incubating_club {padding-top:50px;}
+#incubating_club h3 {font-size:26px; font-weight:bold; padding-bottom:20px; color:#f7931e;}
+#incubating_club p.txt1 {line-height:24px; padding-bottom:20px;}
+#incubating_club ul.club li {padding-bottom:20px;}
+#incubating_club ul.club li.last {padding-bottom:0;}
+#incubating_club ul.club li dl {overflow:hidden;}
+#incubating_club ul.club li dl dt {float:left; width:220px; padding-left:20px; background:url('../img/about/bg_major_dt.png') no-repeat 0 8px; font-size:18px; font-weight:600; color:#0ea6cc;}
+#incubating_club ul.club li dl dd {float:left; width:760px; line-height:24px;}
+
+/* Angel Investment fund - Hanyang Angel Club */
+#angel_club {padding-top:50px;}
+#angel_club h3 {font-size:26px; font-weight:bold; padding-bottom:20px; color:#f7931e;}
+#angel_club p.txt1 {line-height:24px; padding-bottom:20px;}
+#angel_club ul.club li {padding-bottom:20px;}
+#angel_club ul.club li.last {padding-bottom:0;}
+#angel_club ul.club li dl {overflow:hidden;}
+#angel_club ul.club li dl dt {float:left; width:230px; padding-left:20px; background:url('../img/about/bg_major_dt.png') no-repeat 0 8px; font-size:18px; font-weight:600; color:#0ea6cc;}
+#angel_club ul.club li dl dd {float:left; width:750px; line-height:24px;}
+#angel_club ul.club li dl dd span {display:block; padding-left:15px; font-size:12px; color:#5d5d5d; line-height:20px;}
+#angel_club p.img1 {padding-bottom:30px;}
+#angel_club p.btn {padding-bottom:40px;}
+
+/* Angel Investment fund - Hanyang Youth Startup Fund */
+#angel_youth {padding-top:50px;}
+#angel_youth h3 {font-size:26px; font-weight:bold; padding-bottom:20px; color:#f7931e;}
+#angel_youth p.txt1 {line-height:24px; padding-bottom:20px;}
+#angel_youth ul.youth li {padding-bottom:20px;}
+#angel_youth ul.youth li.last {padding-bottom:0;}
+#angel_youth ul.youth li dl {overflow:hidden;}
+#angel_youth ul.youth li dl dt {float:left; width:230px; padding-left:20px; background:url('../img/about/bg_major_dt.png') no-repeat 0 8px; font-size:18px; font-weight:600; color:#0ea6cc;}
+#angel_youth ul.youth li dl dd {float:left; width:750px; line-height:24px;}
+#angel_youth ul.youth li dl dd span {display:block; padding-left:15px; font-size:12px; color:#5d5d5d; line-height:20px;}
+
+/* Angel Investment fund - Crowd Funding */
+#angel_crowd {padding-top:50px; padding-bottom:90px;}
+#angel_crowd h3 {font-size:26px; font-weight:bold; padding-bottom:20px; color:#f7931e;}
+#angel_crowd ul.txt1 {padding-bottom:20px;}
+#angel_crowd ul.txt1 li {line-height:24px;}
+#angel_crowd p.txt1 {line-height:24px; padding-bottom:20px;}
+#angel_crowd h4 {padding-left:20px; background:url('../img/about/bg_major_dt.png') no-repeat 0 8px; font-size:18px; font-weight:600; color:#0ea6cc; padding-bottom:10px;}
+#angel_crowd ul.num-list {width:100%; height:228px; background:url('../img/fund/bg_num-list.png') no-repeat 0 0; padding-bottom:30px;}
+#angel_crowd ul.num-list li {float:left; width:333px;}
+#angel_crowd ul.num-list li dt {padding:28px 0 28px 35px; font-size:16px; color:#db4300; font-weight:bold;}
+#angel_crowd ul.num-list li dt span {display:inline-block; padding-right:20px; color:#fff;}
+#angel_crowd ul.num-list li dd {padding-bottom:14px; line-height:18px; padding-left:20px;}
+#angel_crowd ul.txt2 {padding-bottom:20px;}
+#angel_crowd ul.txt2 li {line-height:24px;padding-left: 20px;text-indent: -14px;}
+#angel_crowd ul.txt2 li strong {font-weight:600;}
+#angel_crowd ul.btm_list {overflow:hidden;}
+#angel_crowd ul.btm_list li {float:left; width:493px; height:430px; padding-right:10px; padding-bottom:10px;}
+#angel_crowd ul.btm_list li.ri {padding-right:0;}
+#angel_crowd ul.btm_list li dl {position:relative; width:493px; height:430px; border:1px solid #e4e4e4;}
+#angel_crowd ul.btm_list li dl dt {position:absolute; top:237px; left:175px; font-weight:bold; font-size:15px;}
+#angel_crowd ul.btm_list li dl dd.con {position:absolute; top:260px; left:175px; font-size:12px; line-height:20px; padding-right:10px; overflow:hidden;}
+#angel_crowd ul.btm_list li dl dd.logo {position:absolute; top:240px; left:9px;}
+#angel_crowd ul.btm_list li dl dd.click {position:absolute; bottom:0; padding-left:40px; width:453px; height:41px; border-top:1px solid #efefef; line-height:41px; background:url('../img/fund/bg_home.png') no-repeat 18px 50%;}
+#angel_crowd ul.btm_list li dl dd.click a {display:block; height:41px; line-height:41px; color:#ef624e; font-size:11px; text-decoration:underline;}
+#angel_crowd ul.btm_list li dl dd.big_img {padding-top:10px; padding-left:10px;}
+
+/* Startup Info - Notice & News */
+#info_notice {padding-top:50px; padding-bottom:90px;}
+#info_notice h3 {font-size:26px; font-weight:bold; padding-bottom:20px; color:#f7931e;}
+#info_notice ul.notice {padding-bottom:20px;}
+#info_notice ul.notice li {padding-bottom:7px;}
+#info_notice ul.notice li dl {position:relative; width:998px; height:174px; border:1px solid #dfdfdf;}
+#info_notice ul.notice li dl:hover {border:1px solid #afafaf;}
+#info_notice ul.notice li.img_y dl:hover dt a {color:#f7931e;}
+#info_notice ul.notice li.img_n dl:hover dt a {color:#f7931e;}
+#info_notice ul.notice li.img_y dl dd.img {position:absolute; left:0; top:0; padding-left:8px; padding-top:7px; width:234px; height:167px; border-right:1px solid #dfdfdf;}
+#info_notice ul.notice li.img_y dl dt {padding-left:260px; padding-top:26px;}
+#info_notice ul.notice li.img_y dl dt span {display:inline-block; width:55px; height:25px; background-color:#f7931e; border-radius:4px; color:#fff; text-align:center; line-height:25px; letter-spacing:-0.05em; margin-right:8px;}
+#info_notice ul.notice li.img_y dl dt a {color:#000; font-weight:bold; line-height:25px;}
+#info_notice ul.notice li.img_y dl dd.con {padding-left:260px; width:670px;height: 70px;overflow: hidden; line-height:20px; font-size:13px; color:#4c4c4c; padding-top:8px;}
+#info_notice ul.notice li.img_y dl dd.btm {position:absolute; top:126px; left:260px;}
+#info_notice ul.notice li.img_y dl dd.btm span {display:inline-block;}
+#info_notice ul.notice li.img_y dl dd.btm span.admin {padding-left:20px; width:45px; background:url('../img/info/bg_admin.png') no-repeat 0 50%; font-size:11px; color:#777;}
+#info_notice ul.notice li.img_y dl dd.btm span.view {padding-left:24px; width:30px; background:url('../img/info/bg_view.png') no-repeat 0 50%; font-size:11px; color:#777;}
+#info_notice ul.notice li.img_y dl dd.btm span.date {padding-left:24px; background:url('../img/info/bg_date.png') no-repeat 0 50%; font-size:11px; color:#bcbaba;}
+#info_notice ul.notice li.img_y dl dd.more {position:absolute; top:80px; right:44px;}
+#info_notice ul.notice li.img_n dl dt {padding-left:30px; padding-top:26px;}
+#info_notice ul.notice li.img_n dl dt span {display:inline-block; width:55px; height:25px; background-color:#f7931e; border-radius:4px; color:#fff; text-align:center; line-height:25px; letter-spacing:-0.05em; margin-right:8px;}
+#info_notice ul.notice li.img_n dl dt a {color:#000; font-weight:bold; line-height:25px;}
+#info_notice ul.notice li.img_n dl dt a:hover {color:#f7931e;}
+#info_notice ul.notice li.img_n dl dd.con {padding-left:30px; width:890px; line-height:20px; font-size:13px; color:#4c4c4c; padding-top:8px;}
+#info_notice ul.notice li.img_n dl dd.btm {position:absolute; top:126px; left:30px;}
+#info_notice ul.notice li.img_n dl dd.btm span {display:inline-block;}
+#info_notice ul.notice li.img_n dl dd.btm span.admin {padding-left:20px; width:45px; background:url('../img/info/bg_admin.png') no-repeat 0 50%; font-size:11px; color:#777;}
+#info_notice ul.notice li.img_n dl dd.btm span.view {padding-left:24px; width:30px; background:url('../img/info/bg_view.png') no-repeat 0 50%; font-size:11px; color:#777;}
+#info_notice ul.notice li.img_n dl dd.btm span.date {padding-left:24px; background:url('../img/info/bg_date.png') no-repeat 0 50%; font-size:11px; color:#bcbaba;}
+#info_notice ul.notice li.img_n dl dd.more {position:absolute; top:80px; right:44px;}
+#info_notice ul.btm {overflow:hidden;}
+#info_notice ul.btm li.page {float:left; width:50%;}
+#info_notice ul.btm li.page a {display:inline-block; width:28px; height:28px; border:1px solid #e2e2e2; text-align:center; line-height:28px; font-size:12px; color:#888;}
+#info_notice ul.btm li.page a.selected {background-color:#4b5265; border:1px solid #4b5265; color:#fff;}
+#info_notice ul.btm li.page a.prev {text-indent:-9999px; background:url('../img/info/bg_prev_arrow.png') no-repeat 0 0;}
+#info_notice ul.btm li.page a.next {text-indent:-9999px; background:url('../img/info/bg_next_arrow.png') no-repeat 0 0;}
+#info_notice ul.btm li.search {float:right; width:50%; text-align:right;}
+#info_notice ul.btm li.search select {padding:6px 0 7px 10px; border:1px solid #cdcdcd; font-size:11px; color:#666; width:126px;}
+#info_notice ul.btm li.search input[type="text"] {padding:7px 0 8px 10px; width:152px; border:1px solid #cdcdcd; font-size:11px; color:#666;}
+#info_notice ul.btm li.search a img {vertical-align:middle;}
+
+/* Startup Info - Gellry */
+#info_gallery {padding-top:50px; padding-bottom:90px;}
+#info_gallery h3 {font-size:26px; font-weight:bold; padding-bottom:20px; color:#f7931e;}
+#info_gallery ul.gallery {overflow:hidden; padding-bottom:20px;}
+#info_gallery ul.gallery li {float:left; padding-right:10px; padding-bottom:10px; line-height:20px;}
+#info_gallery ul.gallery li.ri {padding-right:0;}
+#info_gallery ul.gallery li dl {position:relative; overflow:hidden; width:240px; height:290px; border:1px solid #dfdfdf;}
+#info_gallery ul.gallery li dl:hover {border:1px solid #a5a5a5;}
+#info_gallery ul.gallery li dl:hover dd.ov {display:block;}
+#info_gallery ul.gallery li dl dd.img {position:absolute; top:7px; left:7px;}
+#info_gallery ul.gallery li dl dt {padding-top:180px; padding-left:13px; line-height:24px;}
+#info_gallery ul.gallery li dl dt a {color:#333; font-weight:600;}
+#info_gallery ul.gallery li dl dd.writer {padding-left:13px; padding-top:5px; color:#e9533d; font-size:11px;}
+#info_gallery ul.gallery li dl dd.btm {overflow:hidden; position:absolute; bottom:0; height:41px; line-height:41px; padding-left:37px; width:190px; background:url('../img/info/bg_view.png') no-repeat 14px 50%;}
+#info_gallery ul.gallery li dl dd.btm strong {font-size:11px; color:#777;}
+#info_gallery ul.gallery li dl dd.btm span {float:right; font-size:11px; color:#aaa;}
+#info_gallery ul.gallery li dl dd.ov {display:none; position:absolute; top:7px; left:7px; z-index:5;}
+#info_gallery ul.btm {overflow:hidden;}
+#info_gallery ul.btm li.page {float:left; width:50%;}
+#info_gallery ul.btm li.page a {display:inline-block; width:28px; height:28px; border:1px solid #e2e2e2; text-align:center; line-height:28px; font-size:12px; color:#888;}
+#info_gallery ul.btm li.page a.selected {background-color:#4b5265; border:1px solid #4b5265; color:#fff;}
+#info_gallery ul.btm li.page a.prev {text-indent:-9999px; background:url('../img/info/bg_prev_arrow.png') no-repeat 0 0;}
+#info_gallery ul.btm li.page a.next {text-indent:-9999px; background:url('../img/info/bg_next_arrow.png') no-repeat 0 0;}
+#info_gallery ul.btm li.search {float:right; width:50%; text-align:right;}
+#info_gallery ul.btm li.search select {padding:6px 0 7px 10px; border:1px solid #cdcdcd; font-size:11px; color:#666; width:126px;}
+#info_gallery ul.btm li.search input[type="text"] {padding:7px 0 8px 10px; width:152px; border:1px solid #cdcdcd; font-size:11px; color:#666;}
+#info_gallery ul.btm li.search a img {vertical-align:middle;}

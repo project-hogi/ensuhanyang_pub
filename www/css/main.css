@@ -1,0 +1,62 @@
+#containerwrap{width: 100%;background-color: #fff;}
+#container{width: 100%;margin: auto;}
+.conwrap{width: 1000px;margin: auto;padding: 0;}
+.innovation{padding-top: 45px;padding-bottom: 420px;background: #e9e9e9 url(../img/main/main_map.png)no-repeat 50% 100%;}
+.main_content_tit{position: relative;font-size: 18px;color:#171c4d;text-align: center;padding-bottom: 10px;}
+.main_content_tit:after{
+	clear: both;display: block;content: '';
+	width: 100px;height: 2px;background-color: #01256e;
+	position: absolute;left: 50%;bottom: 0;margin-left: -50px;
+}
+.innovation .text_box{margin-top: 45px;color:#fff;letter-spacing:-1px;height: 515px;padding: 40px;background: #6d758c url(../img/main/text_box_bg.png)no-repeat 111% 120%;border-radius:25px;}
+.text_box li{letter-spacing: 1px;}
+.text_box dl{padding-bottom: 20px;margin-bottom: 20px;border-bottom: 1px solid #a5a9b8;}
+.text_box dl:after{clear: both;display: block;content: '';}
+.text_box dl dt{float: left;font-size: 18px;}
+.text_box dl dd{padding-left:330px;font-size: 12px;line-height: 1.2;}
+.text_box dl dd strong{font-size: 14px;}
+.text_box table{clear: both;color:#fff;width: 650px;}
+.text_box table tr{height: 34px;border-top: 1px solid #a5a9b8;} 
+.text_box table tr:first-child{border-top: none;} 
+.text_box table tr th{font-weight: bold;font-size: 16px;width: 260px;vertical-align: middle;border-right: 1px solid #a5a9b8;line-height: 1.2;}
+.text_box table tr td{font-weight: normal;font-size: 12px;vertical-align: middle;line-height: 14px;padding-left: 20px;letter-spacing: 1px;line-height: 1.2;}
+
+.notice{padding-top: 45px;}
+.notice ul{margin-top: 45px;}
+.notice ul:after{clear: both;display: block;content: '';}
+.notice ul li{width: 244px;height: 290px;margin-left: 8px;float: left;position: relative;border: 1px solid #dfdfdf;}
+
+.notice ul li .notice_thumb{display: none;}
+.notice ul li.on .notice_thumb{
+	clear: both;display: block;content: '';
+	position: absolute;left: 0;right: 0;top: 0;bottom: 0;
+	background: rgba(0,0,0,0.1) url(../img/main/img_hover_icon.png)no-repeat 50% 55px;
+}
+.notice ul li:first-child{margin-left: 0;}
+.notice ul li div{display: block;height: 100%;padding: 8px;}
+.notice ul li div img{}
+.notice ul li div dl{margin-top: 15px;}
+.notice ul li div dl dt{font-size: 14px;color: #444;font-weight: bold;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.notice ul li div dl dd{font-size: 12px;color: #b2b1b1;height: 35px;overflow: hidden;}
+.notice ul li.different div dl dd{height: 180px;}
+#container .notice ul li div p{position: absolute;left: 0;bottom: 0;font-size: 10px;color: #444;background: url(../img/main/text-icon.png)no-repeat 18px 17px;width: 100%;padding: 15px 20px 15px 40px;}
+.notice ul li div p span.date{float: right;color: #b2b1b1;}
+.notice ul li div span.new_g,
+.notice ul li div span.new_b{display: block;width: 20px;height: 20px;background: url(../img/main/new_g.png)no-repeat 0 0;position: absolute;right: 20px;top: 20px;z-index: 10;}
+.notice ul li div span.new_b{background-image: url(../img/main/new_b.png);}
+
+.program{padding-top: 45px;}
+.program h2{}
+.program ul{margin: 45px 0;}
+.program ul:after{clear: both;display: block;content: '';}
+.program ul li{width: 250px;height: 233px;float: left;text-align: center;background: #6d758c url(../img/main/program_icon-edu.png)no-repeat 50% 30%;}
+.program ul li a{display: block;height: 100%;font-size: 16px;color: #fff;}
+.program ul li span{display: inline-block;margin-top: 160px;}
+.program ul li.pro_edu{background-image: url(../img/main/program_icon-edu.png);background-color: #6d758c;background-repeat: no-repeat;background-position: 50% 35%;}
+.program ul li.pro_tra{background-image: url(../img/main/program_icon-tra.png);background-color: #e9eaf0;background-repeat: no-repeat;background-position: 50% 35%;}
+.program ul li.pro_tra a{color: #444;}
+.program ul li.pro_net{background-image: url(../img/main/program_icon-net.png);background-color: #595959;background-repeat: no-repeat;background-position: 50% 35%;}
+.program ul li.pro_inc{background-image: url(../img/main/program_icon-inc.png);background-color: #6d758c;background-repeat: no-repeat;background-position: 50% 35%;}
+
+
+
