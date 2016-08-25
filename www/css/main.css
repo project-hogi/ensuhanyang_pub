@@ -1,7 +1,22 @@
 #containerwrap{width: 100%;background-color: #fff;}
 #container{width: 100%;margin: auto;}
 .conwrap{width: 1000px;margin: auto;padding: 0;}
-.innovation{padding-top: 45px;padding-bottom: 420px;background: #e9e9e9 url(../img/main/main_map.png)no-repeat 50% 100%;}
+.innovation{padding-top: 45px;padding-bottom: 110px;min-height:810px;}
+.inno-content:after{
+	clear: both;display: block;content: '';
+}
+.inno-content{position: relative;}
+.inno-content dt{margin-left: 5px;float: right;}
+.inno-content dt a{display: block;width: 35px;height: 35px;background: url(../img/main/en-main-map-btn.jpg)no-repeat 0 0;}
+.inno-content dt.eq-01{margin-right: 10px;}
+.inno-content dt.eq-01 a{background-image: url(../img/main/en-main-list-btn.jpg)}
+.inno-content dt.on a{background-position: -35px 0;}
+.inno-content dd{position: absolute;left: 0;top: 50px;display: none;}
+.inno-content dd.on{display: block;}
+
+
+
+
 .main_content_tit{position: relative;font-size: 18px;color:#171c4d;text-align: center;padding-bottom: 10px;}
 .main_content_tit:after{
 	clear: both;display: block;content: '';
