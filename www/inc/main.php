@@ -24,9 +24,9 @@
 				
 				<dl class="inno-content">
 					<dt class="eq-01"><a href="#list"><span class="sr-only">리스트</span></a></dt>
-					<dd><img src="/img/main/en-main-list.jpg" alt="리스트" /></dd>
+					<dd><img src="../img/main/en-main-list.jpg" alt="리스트" /></dd>
 					<dt class="eq-02 on"><a href="#map"><span class="sr-only">지도</span></a></dt>
-					<dd class="on"><img src="/img/main/en-main-map.jpg" alt="지도" /></dd>
+					<dd class="on"><img src="../img/main/en-main-map.jpg" alt="지도" /></dd>
 				</dl>
 				<!-- /.inno-content -->
 				
